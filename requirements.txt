@@ -1,0 +1,23 @@
+# Core data
+pandas>=2.0.0
+numpy>=1.24.0
+pyarrow>=14.0.0
+
+# Forecasting
+prophet>=1.1.5
+neuralprophet>=0.9.0
+# Amazon Chronos (install separately due to size):
+# pip install git+https://github.com/amazon-science/chronos-forecasting.git
+torch>=2.0.0
+
+# LLM APIs
+anthropic>=0.25.0
+openai>=1.30.0
+
+# Dashboard
+gradio>=4.36.0
+plotly>=5.20.0
+
+# Utilities
+python-dotenv>=1.0.0
+tabulate>=0.9.0   # for .to_markdown()
